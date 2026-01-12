@@ -11,3 +11,8 @@
   margin: 0;
   gap: 10px;
 }
+
+#allContainer{
+  padding-right: 100px;
+  padding-left: 100px;
+}

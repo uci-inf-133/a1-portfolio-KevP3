@@ -1,3 +1,8 @@
+#container{
+  padding-right: 150px; 
+  padding-left: 150px;
+}
+
 #top {
   display: flex;
   align-items: center;          
@@ -18,9 +23,8 @@
   text-decoration: none;  
 }
 
-#allContainer{
-  padding-right: 150px; 
-  padding-left: 150px;
+hr {
+ 
 }
 
 #aboutMe{
@@ -33,4 +37,13 @@
   border: none;
   display: block;
   bottom: -42px;
+}
+@media screen and (max-width: 640px) {
+/* small screens */
+}
+@media screen and (min-width: 640px) and (max-width: 1024px) {
+/* medium screens */
+}
+@media screen and (min-width: 1024px) {
+/* large screens */
 }

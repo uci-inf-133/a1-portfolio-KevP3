@@ -1,18 +1,6 @@
-#container{
-  padding-right: 150px; 
-  padding-left: 150px;
-}
-
-#top {
-  display: flex;
-  align-items: center;          
-  justify-content: space-between;
-  color: #0099cc;
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-}
-
-#nav {
+#nav {   
+  margin: 0;
+  padding: 0; 
   display: flex; 
   list-style: none;
   gap: 10px;
@@ -23,27 +11,81 @@
   text-decoration: none;  
 }
 
-hr {
- 
-}
-
 #aboutMe{
   font-size: 20px;
 }
+  
+#top {
+  display: flex;
+  align-items: center;          
+  justify-content: space-between;
+  color: #0099cc;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+  
+@media screen and (min-width: 1024px) { /* large screens */
+  #container{
+    padding-right: 150px; 
+    padding-left: 150px;
+  }
 
-#pdf {
-  width: 100%;
-  height: 1000px;
-  border: none;
-  display: block;
-  bottom: -42px;
+  img {
+    width: 250px;
+  }
+
+  #pdf {
+    width: 100%;
+    height: 1000px;
+    border: none;
+    display: block;
+    bottom: -42px;
+  }
 }
-@media screen and (max-width: 640px) {
-/* small screens */
+@media screen and (min-width: 640px) and (max-width: 1024px) { /* medium screens */
+  #container {
+    padding: 0 60px;
+  }
+
+  img {
+    width: 200px;
+  }
+
+  #pdf {
+    height: 70vh;
+  }
 }
-@media screen and (min-width: 640px) and (max-width: 1024px) {
-/* medium screens */
-}
-@media screen and (min-width: 1024px) {
-/* large screens */
+@media screen and (max-width: 640px) { /*small screens*/
+  #container {
+    padding: 0 20px;
+  }
+
+  #top {
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center; 
+    gap: 10px;
+  }
+
+  #nav {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  img {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  #aboutMe {
+    font-size: 18px;
+  }
+
+  #pdf {
+    height: 60vh;
+  }
 }

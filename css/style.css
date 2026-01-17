@@ -16,6 +16,12 @@
   text-decoration: none; 
 }
 
+img {
+  float: left;
+  margin-right: 2em;
+  width: 250px;
+}
+
 #aboutMe{
   font-size: 20px;
 }
@@ -83,7 +89,10 @@
 
   img {
     width: 100%;
-    margin-bottom: 15px;
+    max-width: 250px;
+    display: block;
+    margin: auto;
+    float: none;
   }
 
   #aboutMe {

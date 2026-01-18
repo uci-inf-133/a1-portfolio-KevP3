@@ -24,20 +24,20 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 (a) Basic features
 
 At least one image, with descriptive alt attribute(s) 
-    (index.html line 34)
+    (index.html line 37)
 Appropriate headings and paragraph text 
-    (index.html line 22 or resume.html line 35,39,71,100,116 usage of h1 and h2)
+    (index.html line 22 or resume.html line 22,37,43,76,106,123 usage of h1, h2, and 3)
 Links to external page(s) 
     (index.html line 26 and 28)
 Multiple pages, with appropriate navigation between them 
-    (navigation between index.html, resume.html, and contactForm.html lines 25, 27, and 28 for all 3 html files)
+    (navigation between index.html, resume.html, and contactForm.html lines 25, 27, and 29 for all 3 html files)
 
 (b) CSS features
 
 Modifying padding and margins to indent content and enhance readability
-    (many padding change like in style.css 57-58) 
+    (many padding change like in style.css 54 55) 
 Modifying link, text color, or other colors to be visually appealing, perhaps with one of the pallette creators in the resources tab
-    (style.css lines 43-50)
+    (style.css lines 44-51)
 
 (c) Advanced features
 

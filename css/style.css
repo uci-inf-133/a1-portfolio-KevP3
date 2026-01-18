@@ -57,7 +57,7 @@ ul{
   align-items: center;          
   justify-content: space-between;
   color: #0099cc;
-  font-family: 'Roboto', sans-serif;
+  font-family: Verdana, sans-serif, Arial;
   font-size: 20px;
 }
   
@@ -65,7 +65,7 @@ ul{
   #resumeContainer {
     max-width: 800px;
     margin: 0 auto;
-    font-family: 'Roboto', sans-serif;
+    font-family: Verdana, sans-serif, Arial;
     line-height: 1.5;
   }
   
@@ -103,7 +103,7 @@ ul{
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-family: Verdana, sans-serif, Arial;
     line-height: 1.5;
   }
   
@@ -147,7 +147,7 @@ ul{
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-family: Verdana, sans-serif, Arial;
     line-height: 1.5;
   }
 

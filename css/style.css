@@ -7,7 +7,7 @@ hr {
   width: calc(100% - 300px);
 }
 
-h2 {
+h3 {
   text-align: center;
   border-bottom: 2px solid black;
   padding-bottom: 3px;
@@ -192,7 +192,7 @@ ul{
     width: calc(100% - 150px);
     height:300px;
   }
-  
+
   #subject {
     width: calc(100% - 150px);
   }

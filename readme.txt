@@ -10,7 +10,7 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
-*/10
+10/10
 - 1/1 Readme
 - 2/2 Basic HTML content
 - 1/1 Basic CSS styling
@@ -30,7 +30,7 @@ Appropriate headings and paragraph text
 Links to external page(s) 
     (index.html line 26 and 28)
 Multiple pages, with appropriate navigation between them 
-    (navigation between index.html and resume.html lines 25 and 27 for both)
+    (navigation between index.html, resume.html, and contactForm.html lines 25, 27, and 28 for all 3 html files)
 
 (b) CSS features
 
@@ -47,7 +47,11 @@ A contact form which leverages HTML forms
 
 3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern? If it's useful, you can consolidate your thoughts on multiple warnings/errors if the rationale is similar.
 
-
+Using the Achecker accessibility checker I did not get any known or likely problems in all 3 of my html files
+I chose to ignore potential problems because they didn't seem to be an accessibility concern just the checker not understanding what's on the page
+For example, with the image of myself, the accessibility checker waas concerned about the alt text even though it can't see the image
+Other potential problems were "title may not describe the document" which may be true since I made the title my name because it's a portfolio about members
+Another potential problem I thought was an accessibility concern in having 2 heading ones in resume.html I fixed it because in one of my other classes I learned that there should only be one heading one in a page
 
 4. How long, in hours, did it take you to complete this assignment?
 

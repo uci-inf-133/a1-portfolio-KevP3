@@ -9,27 +9,117 @@ EMAIL: kgpoon@uci.edu
 <head>
   <meta charset="utf-8">
   <meta name="author" content="Kevin Poon">
-  <meta name="description" content="This is Kevin's portfolio.">
+  <meta name="description" content="This is Kevin's resume.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <!-- you would link to an external stylesheet here! -->
+  <!-- you would link to an external stylesheet here! -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- you would also link to Bootstrap here! -->
   <title>Kevin Poon</title>
 </head>
+<header id = "top"> 
+    <h1>Kevin Poon</h1>
+    <nav>
+    <ul id = "nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="https://senseiwuhooo.itch.io/">Projects</a></li>
+        <li><a href="ResumeforCLASS.html">Resume</a></li>
+        <li><a href="https://github.com/KevP3">Github</a></li>
+    </ul>
+    </nav>
+</header> 
+<hr>
 <body>
-  <div id = "allContainer">
-    <header id = "top"> 
+  <div id = "resumeContainer">
+    <header id = "resumeHeader">
       <h1>Kevin Poon</h1>
-      <nav>
-        <ul id = "nav">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="https://senseiwuhooo.itch.io/">Projects</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="https://github.com/KevP3">Github</a></li>
-        </ul>
-      </nav>
+      <p>Place | Phone Number | Email</p>
     </header>
-    <hr>
-    <embed id="pdf" src="../assets/resumeButNoPersonalInfo.pdf">
+    <div>
+      <h2>Education</h2>
+        <div class = "sectionLine">
+          <strong>University of California, Irvine</strong>
+          <span>September 2025 - Present</span>
+        </div>
+        <div class = "itemContent">
+          <strong>Bachelor of Science in Software Engineering</strong>
+          <strong>Expected Graduation: June 2027</strong>
+        </div>
+        <div class = "sectionLine">
+          <strong>City College of San Francisco</strong>
+          <span>January 2023 - May 2025</span>
+        </div>
+        <strong>Associate of Science in Computer Science</strong>
+        <div class = "itemContent">
+        <p>GPA: 3.92/4.0 | Dean's List (multiple semesters)</p>
+        <p>Graduated with Highest Honors</p>
+        </div>
+        <ul>
+          <li>Relevant Coursework:
+          <ul>
+            <li>Data Structures & Algorithms: C++</li>
+            <li>Discrete Mathematics</li> 
+            <li>Computer Architecture with Assembly</li>
+            <li>Advanced Python Programming</li>
+            <li>Linear Algebra & Differential Equations</li>
+          </ul>
+          </li>
+        </ul>
+    </div>
+
+    <div>
+      <h2>Experience</h2>
+      <div class = "sectionLine">
+        <strong>George Washington High School Robotics</strong>
+        <span>San Francisco, CA</span>
+      </div>
+      <div class = "sectionLine">
+        <strong>Software Engineer</strong>
+        <span>Aug 2022 - May 2023</span>
+      </div>
+      <ul>
+        <li>Programmed initial autonomous sequence and driver-controlled functions in Java</li>
+        <li>Led hands-on training sessions to prepare new team members on system validation</li>
+        <li>Mentored new team members on programming concepts and version control</li>
+      </ul>
+      <div class = "sectionLine">
+        <strong>Niantic</strong>
+        <span>Santa Clara, CA</span>
+      </div>
+      <div class = "sectionLine">
+        <strong>Brand Ambassador</strong>
+        <span>June 2023 - June 2023</span>
+      </div>
+      <ul>
+        <li>Supported Niantic staff during AWE USA 2023 with event setup, logistics, and on-site operations</li>
+        <li>Managed a booth showcasing “Meet Wol,” an AR/XR experience, and provided hands-on demonstration of the product to over 50 attendees</li>
+      </ul>
+    </div>
+
+    <div>
+      <h2>Projects</h2>
+      <div class = "sectionLine">
+        <strong>Game Development</strong>
+        <span>May 2024 - August 2024</span>
+      </div>
+       <ul>
+        <li>Designed and implemented a 2D platformer and top-down game in C# (Unity Engine)</li>
+        <li>Collaborated with teammates to plan and implement game features</li>
+        <li>
+          Contributed to “Reapers Rampage” and “Reapers Revenge” as primary programmer 
+          (<a href="https://senseiwuhooo.itch.io/">Itch.io link</a>)
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <h2>Skills</h2>
+      <ul>
+        <li><strong>Languages:</strong> Proficient in C++, C#, Java | Familiar with Python</li>
+        <li><strong>Tools:</strong> Git, Unity, VS Code</li>
+        <li><strong>Concepts:</strong> Object-Oriented Programming, Software Testing</li>
+      </ul>
+    </div>
   </div>
 </body>
 </html>

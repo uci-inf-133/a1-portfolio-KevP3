@@ -35,9 +35,9 @@ Multiple pages, with appropriate navigation between them
 (b) CSS features
 
 Modifying padding and margins to indent content and enhance readability
-    (many padding change like in style.css 59 60) 
+    (many padding change like in style.css 65 66) 
 Modifying link, text color, or other colors to be visually appealing, perhaps with one of the pallette creators in the resources tab
-    (style.css lines 41-48 and 116)
+    (style.css lines 34-54 and 122)
 
 (c) Advanced features
 
@@ -59,7 +59,7 @@ Another potential problem I thought was an accessibility concern in having 2 hea
 5. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
 
 Used https://www.w3schools.com to go through the html and css api
-Asked generative AI about how to create (api questions) what I wanted such as using the calc() function in style.css line 8 and what <br> does in contactForm.html line 34
+Asked generative AI about how to create (api questions) what I wanted such as using the calc() function in style.css line 8 and what <br> does in contactForm.html line 34 and for animations
 Generative AI assisted coding specifically for resume.html where I first downloaded it as a web.html from google docs 
 but it was formatted as one very long line of code so I asked generative AI to turn it into readable code then I tweaked to my liking
 

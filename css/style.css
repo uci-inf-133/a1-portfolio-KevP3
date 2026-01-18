@@ -31,6 +31,7 @@ h3 {
 ul{
   margin-top: 0;
 }
+
 #nav{   
   padding: 0;
   display: flex; 
@@ -40,6 +41,11 @@ ul{
 }
 #nav a{
   text-decoration: none;  
+  display: inline-block;
+}
+
+#nav a:hover {
+  transform: translateY(-2px);
 }
 
 #nav a:visited { 

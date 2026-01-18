@@ -44,7 +44,6 @@ Modifying link, text color, or other colors to be visually appealing, perhaps wi
 A contact form which leverages HTML forms
     (contactForm.html uses HTML forms to contact my UCI email)
 
-
 3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern? If it's useful, you can consolidate your thoughts on multiple warnings/errors if the rationale is similar.
 
 Using the Achecker accessibility checker I did not get any known or likely problems in all 3 of my html files

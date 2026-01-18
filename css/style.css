@@ -1,17 +1,14 @@
-#resumeContainer {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-  font-family: Arial, sans-serif;
-  line-height: 1.5;
-}
-
 #resumeHeader {
   text-align: center;
   margin-bottom: 20px;
 }
 
+hr {
+  width: calc(100% - 300px);
+}
+
 h2 {
+  text-align: center;
   border-bottom: 2px solid black;
   padding-bottom: 3px;
 }
@@ -34,7 +31,7 @@ ul{
   margin-top: 0;
 }
 
-#nav {   
+#nav{   
   margin: 0;
   padding: 0; 
   display: flex; 
@@ -63,6 +60,8 @@ img {
 }
   
 #top {
+  padding-right: 150px; 
+  padding-left: 150px;
   display: flex;
   align-items: center;          
   justify-content: space-between;
@@ -72,6 +71,14 @@ img {
 }
   
 @media screen and (min-width: 1024px) { /* large screens */
+  #resumeContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+  }
+  
   #container{
     padding-right: 150px; 
     padding-left: 150px;
@@ -90,6 +97,14 @@ img {
   }
 }
 @media screen and (min-width: 640px) and (max-width: 1024px) { /* medium screens */
+  #resumeContainer {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+  }
+
   #container {
     padding: 0 60px;
   }
@@ -103,6 +118,14 @@ img {
   }
 }
 @media screen and (max-width: 640px) { /*small screens*/
+  #resumeContainer {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+  }
+
   #container {
     padding: 0 20px;
   }

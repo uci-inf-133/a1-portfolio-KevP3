@@ -49,12 +49,6 @@ ul{
   text-decoration: none; 
 }
 
-img {
-  float: left;
-  margin-right: 2em;
-  width: 250px;
-}
-
 #aboutMe{
   font-size: 20px;
 }
@@ -85,6 +79,8 @@ img {
   }
 
   img {
+    float: left;
+    margin-right: 2em;
     width: 250px;
   }
 
@@ -95,6 +91,18 @@ img {
     display: block;
     bottom: -42px;
   }
+
+  #contactForm{
+    padding-left: 150px;
+  }
+
+  #message {
+    width: calc(100% - 150px);
+    height:300px;
+  }
+  #subject {
+    width: calc(100% - 150px);
+  }
 }
 @media screen and (min-width: 640px) and (max-width: 1024px) { /* medium screens */
   #resumeContainer {
@@ -104,17 +112,32 @@ img {
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
   }
-
+  
   #container {
     padding: 0 60px;
   }
 
   img {
-    width: 200px;
+    width: 100%;
+    max-width: 250px;
+    display: block;
+    margin: auto;
+    float: none;
   }
 
   #pdf {
     height: 70vh;
+  }
+  #contactForm{
+    padding-left: 150px;
+  }
+
+  #message {
+    width: calc(100% - 150px);
+    height:300px;
+  }
+  #subject {
+    width: calc(100% - 150px);
   }
 }
 @media screen and (max-width: 640px) { /*small screens*/
@@ -160,5 +183,17 @@ img {
 
   #pdf {
     height: 60vh;
+  }
+  #contactForm{
+    padding-left: 150px;
+  }
+
+  #message {
+    width: calc(100% - 150px);
+    height:300px;
+  }
+  
+  #subject {
+    width: calc(100% - 150px);
   }
 }
